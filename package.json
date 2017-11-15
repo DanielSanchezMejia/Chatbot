@@ -1,0 +1,19 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "chatbot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielSanchezMejia/Chatbot.git"
+  },
+  "author": "Daniel Sanchez Mejia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielSanchezMejia/Chatbot/issues"
+  },
+  "homepage": "https://github.com/DanielSanchezMejia/Chatbot#readme"
+}
