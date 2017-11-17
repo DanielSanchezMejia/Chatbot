@@ -355,6 +355,7 @@ function checkAccount(senderID,messages){
 	
     
   });
+			}
 
     } else {
       console.error("Failed calling Send API", response.statusCode, response.statusMessage, body.error);
