@@ -320,7 +320,7 @@ function checkAccount(senderID,messages){
 	const value = encodeURI(message);
 	
 	request({
-    uri: 'https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=508rating=pg&q=',
+    uri: 'https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=508rating=pg&q=' + value,
    
 
   }, function (error, response, body) {
