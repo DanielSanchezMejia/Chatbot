@@ -364,6 +364,7 @@ function checkAccount(senderID,messages){
       console.error("Failed calling Send API", response.statusCode, response.statusMessage, body.error);
     }
   });
+}
 function handleMessage(currentUser, senderID, message, isEcho, messageId, appId, metadata) {
   console.log("currentUser: ");
   console.log(currentUser);
