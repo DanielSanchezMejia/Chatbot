@@ -316,7 +316,8 @@ request.on('response', function(response) {
 		}
 	}
 });
-function checkAccount(senderID,messages){
+
+function checkAccount(senderID, message){
 	const value = encodeURI(message);
   request({
     uri: 'https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=50&rating=pg&q=' + value,
