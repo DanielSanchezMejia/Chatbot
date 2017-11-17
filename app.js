@@ -296,6 +296,7 @@ request.on('response', function(response) {
 			}
 			else{
 				const action = result.action;
+				const parameters = result.parameters;
 				console.log('action: ', action);
 				console.log('parameters: ', parameters);
 				switch(action){
